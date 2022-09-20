@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.58d78975.css",
+    "main.js": "/Portfolio/static/js/main.636a495c.js",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.84fcf24fda7d90b38b53.jpg",
+    "static/media/defaultProjectImg.png": "/Portfolio/static/media/defaultProjectImg.285eee6cb6d643a93e8f.png",
+    "static/media/templateDGWeather.png": "/Portfolio/static/media/templateDGWeather.99e4ad682a98aa6424c6.png",
+    "static/media/coding.png": "/Portfolio/static/media/coding.28b1bb84a66b5eb87c4d.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.5506a8e575cbe18ff8ba.png",
+    "index.html": "/Portfolio/index.html",
+    "main.58d78975.css.map": "/Portfolio/static/css/main.58d78975.css.map",
+    "main.636a495c.js.map": "/Portfolio/static/js/main.636a495c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58d78975.css",
+    "static/js/main.636a495c.js"
+  ]
+}
