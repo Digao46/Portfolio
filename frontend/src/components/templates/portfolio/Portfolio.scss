@@ -1,0 +1,96 @@
+.portfolio {
+  height: 100%;
+  padding-top: 150px;
+  margin-bottom: 150px;
+
+  .cards {
+    height: 90%;
+
+    .card {
+      height: 450px;
+      border: none;
+      background-color: var(--white-800);
+      border-radius: 15px;
+
+      .defaultImg {
+        height: 100%;
+        width: 70%;
+        border-radius: 15px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .projectImg {
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .content {
+        position: absolute;
+        height: 100%;
+        background-color: #262626f5;
+        opacity: 0;
+        transition: 1s;
+
+        h3 {
+          position: relative;
+
+          color: var(--white-800);
+          letter-spacing: 1px;
+          font-size: 1.5rem;
+          font-weight: 600;
+
+          z-index: 2;
+          opacity: 0.5;
+          transition: 1.5s;
+        }
+
+        p {
+          position: relative;
+          width: 80%;
+
+          color: var(--white-800);
+          font-size: 1rem;
+          font-weight: 300;
+
+          z-index: 2;
+          opacity: 0.5;
+          transition: 1.5s;
+
+          .stack {
+            font-weight: 600;
+            color: var(--purple-800);
+          }
+        }
+
+        a {
+          width: 100px;
+
+          background: var(--purple-800);
+          border-radius: 30px;
+          color: var(--white-800);
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 600;
+
+          &:hover {
+            color: var(--grey-200);
+          }
+        }
+      }
+
+      &:hover {
+        .content {
+          opacity: 1;
+          h3,
+          p {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

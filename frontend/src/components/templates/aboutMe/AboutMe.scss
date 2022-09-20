@@ -1,0 +1,46 @@
+.aboutMeSection {
+  height: 100%;
+  padding-top: 300px;
+  margin-bottom: 225px;
+
+  .imgArea {
+    display: flex;
+
+    .backImg {
+      border-top: 10px solid var(--purple-800);
+      border-left: 10px solid var(--purple-800);
+
+      img {
+        width: 110%;
+        height: 115%;
+      }
+    }
+  }
+
+  .divAboutMe {
+    .textAboutMe {
+      p {
+        width: 350px;
+        font-size: 1rem;
+      }
+    }
+
+    .downloadCV {
+      width: 200px !important;
+      height: 50px;
+      border-radius: 50px;
+      border: none;
+
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 400;
+
+      background-color: var(--purple-800);
+      color: var(--black-800);
+
+      &:hover {
+        color: var(--grey-200);
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+:root {
+  --purple-800: #935ae7e1;
+
+  --grey-200: rgba(255, 255, 255, 0.548);
+  --grey-400: #262626;
+  --grey-800: #212121;
+
+  --white-800: #fff;
+
+  --red-800: rgb(255, 0, 0);
+
+  --black-800: rgb(0, 0, 0);
+}
+
+html,
+body {
+  background-color: var(--grey-400);
+  height: 100vh;
+
+  margin: 0;
+  border: 0;
+}
+
+.App {
+  background-color: var(--grey-400);
+  height: 100vh;
+}
+
+.toast-success {
+  position: relative;
+  top: 120px;
+  background-color: var(--grey-400) !important;
+
+  .Toastify__progress-bar--success {
+    background-color: var(--purple-800) !important;
+  }
+}
+
+.toast-error {
+  position: relative;
+  top: 120px;
+  background-color: var(--grey-400) !important;
+
+  .Toastify__progress-bar--error {
+    background-color: var(--red-800) !important;
+  }
+}

@@ -1,0 +1,76 @@
+.contactSection {
+  height: 100%;
+  padding-top: 150px;
+  margin-bottom: 150px;
+
+  .headerContact {
+    .workNow {
+      max-width: 460px;
+    }
+  }
+
+  .personalData {
+    a {
+      text-decoration: none;
+      color: var(--black-800);
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    p {
+      color: var(--white-800);
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+
+    .icons {
+      height: 90px;
+      max-width: 90px !important;
+      background-color: var(--purple-800);
+      border-radius: 50%;
+
+      .iconArea {
+        i {
+          color: var(--black-800);
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+
+  .formContact {
+    input {
+      color: var(--white-800);
+      background-color: var(--grey-400);
+      border: 1px solid var(--white-800);
+      border-radius: 55px;
+      height: 60px;
+    }
+
+    textarea {
+      color: var(--white-800);
+      background-color: var(--grey-400);
+      border: 1px solid var(--white-800);
+
+      border-radius: 35px;
+    }
+
+    button {
+      width: 200px !important;
+      height: 50px;
+      border-radius: 50px;
+      border: none;
+
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 400;
+
+      background-color: var(--purple-800);
+      color: var(--black-800);
+
+      &:hover {
+        color: var(--grey-200);
+      }
+    }
+  }
+}
