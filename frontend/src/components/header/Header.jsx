@@ -121,12 +121,26 @@ class Header extends React.Component {
               Sou um estudante, no caminho para se tornar um Desenvolvedor Full
               Stack
             </p>
-            <a
+            <div className="socialLogos d-flex justify-content-between">
+              <div className="socialLogo d-flex justify-content-center align-items-center me-2">
+                <a href="https://github.com/Digao46" target="_blank" rel="noreferrer" className="d-flex justify-content-center align-items-center" >
+                  <i className="fa-brands fa-square-github me-2" /> Github
+                </a>
+              </div>
+
+              <div className="socialLogo d-flex justify-content-center align-items-center ms-2">
+                <a href="https://www.linkedin.com/in/diogo-melo-60870a214" target="_blank" rel="noreferrer" className="d-flex justify-content-center align-items-center">
+                  <i className="fa-brands fa-linkedin me-2" /> LinkedIn
+                </a>
+              </div>
+            </div>
+
+            {/* <a
               className="linkContact d-flex align-items-center justify-content-center"
               href="#contact"
             >
               Entre em contato
-            </a>
+            </a> */}
           </div>
 
           <div className="imgArea d-none d-lg-block col-4 d-flex align-items-center justify-content-center">

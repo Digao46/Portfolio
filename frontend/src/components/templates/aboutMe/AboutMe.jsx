@@ -2,7 +2,7 @@ import React from "react";
 
 import "./AboutMe.scss"
 
-import Profile from "../../../assets/imgs/profile.jpg"
+import Profile from "../../../assets/imgs/profile.png"
 
 class AboutMe extends React.Component {
     render() {

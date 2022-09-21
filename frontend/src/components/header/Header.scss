@@ -194,21 +194,29 @@ header {
         line-height: 1.2rem;
       }
 
-      .linkContact {
-        width: 200px;
-        height: 50px;
-        border-radius: 50px;
-        border: none;
+      .socialLogos {
+        .socialLogo {
+          width: 130px;
+          height: 50px;
 
-        text-decoration: none;
-        font-size: 1.1rem;
-        font-weight: 400;
+          border-radius: 20px;
+          border: none;
 
-        background-color: var(--purple-800);
-        color: var(--black-800);
+          background-color: var(--purple-800);
+        }
 
-        &:hover {
-          color: var(--grey-200);
+        a {
+          color: var(--black-800);
+          text-decoration: none;
+
+          &:hover {
+            color: var(--grey-200);
+            text-decoration: none;
+          }
+        }
+
+        i {
+          font-size: 2rem;
         }
       }
     }
