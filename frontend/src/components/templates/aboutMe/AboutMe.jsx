@@ -59,7 +59,6 @@ class AboutMe extends React.Component {
                             <div className="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
                                 <a data-aos="fade-up" href="https://drive.google.com/uc?id=1fqKPKFQM60yqC--0uaag9u4ljBsCHZ6b" target="_blank" rel="noreferrer" className="downloadCV d-flex align-items-center justify-content-center">
                                     Visualizar CV
-
                                     <i className="ps-2 fa-solid fa-cloud-arrow-down" />
                                 </a>
                             </div>
